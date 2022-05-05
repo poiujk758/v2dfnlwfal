@@ -1,0 +1,30 @@
+{
+  "name": "v2nfcrg",
+  "description": "v2nfcrg",
+  "keywords": [
+    "v2nfcrg"
+  ],
+  "env": {
+    "PROTOCOL": {
+      "description": "协议VMess或VLESS，请填小写的vmess或vless",
+      "value": "vmess",
+      "required": true
+    },
+    "UUID": {
+      "description": "a0bcfe63-2d4f-42b7-8553-f898b64843a7",
+      "value": "",
+      "required": false
+    },
+    "WS_PATH": {
+      "description": "websocket路径",
+      "value": "/ray",
+      "required": true
+    }
+  },
+  "website": "https://github.com/poiujk758/v2dfnlwfal",
+  "repository": "https://github.com/poiujk758/v2dfnlwfal",
+  "stack": "container",
+  "features": [
+    "runtime-dyno-metadata"
+  ]
+}
